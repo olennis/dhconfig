@@ -93,7 +93,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/cli@npm:^2.25.2":
+"@changesets/cli@npm:^2.26.2":
   version: 2.26.2
   resolution: "@changesets/cli@npm:2.26.2"
   dependencies:
@@ -575,7 +575,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@olennis/configs@workspace:."
   dependencies:
-    "@changesets/cli": "npm:^2.25.2"
+    "@changesets/cli": "npm:^2.26.2"
     eslint: "npm:^8.29.0"
     prettier: "npm:^2.8.0"
     ultra-runner: "npm:^3.10.5"

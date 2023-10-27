@@ -10,7 +10,7 @@
     "version": "changeset version && yarn install --no-immutable"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.25.2",
+    "@changesets/cli": "^2.26.2",
     "eslint": "^8.29.0",
     "prettier": "^2.8.0",
     "ultra-runner": "^3.10.5"

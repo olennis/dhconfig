@@ -1,5 +1,6 @@
 {
     "name": "@olennis/eslint-plugin",
+    "version":"1.0.0",
     "description": "olennis eslint custom plugin and config",
     "type": "commonjs",
     "author": {
