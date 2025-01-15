@@ -1,23 +1,30 @@
 {
-  "name": "@olennis/configs",
-  "packageManager": "yarn@4.0.0",
-  "workspaces": [
-    "./packages/eslint"
-  ],
+  "name": "eslint-config-dhconfig",
+  "version": "1.0.0",
+  "description": "donghun's custom eslint config",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "build": "ultra -r build",
-    "release": "yarn changeset publish",
-    "ver": "changeset version && yarn install --no-immutable"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
-    "eslint": "^8.29.0",
-    "prettier": "^2.8.0",
-    "ultra-runner": "^3.10.5"
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0"
   },
-  "ultra": {
-    "concurrent": [
-      "build"
-    ]
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
