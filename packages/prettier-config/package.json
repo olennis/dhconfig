@@ -1,9 +1,9 @@
 {
-  "name": "@olennis/prettier-config",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "peerDependencies": {
-    "prettier": ">=3.0.0"
-  }
-} 
+	"name": "@olennis/prettier-config",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"peerDependencies": {
+		"prettier": ">=3.0.0"
+	}
+}
